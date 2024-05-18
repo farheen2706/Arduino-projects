@@ -1,6 +1,9 @@
+int led=8;
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
+  pinMode(led,OUTPUT);
 }
 
 void loop() {
@@ -8,7 +11,14 @@ void loop() {
   if(Serial.available())
   {
     String a = Serial.readString();
-    Serial.println(a);
+    if(a == "1")
+    {
+      digitalWrite(led,HIGH);
+    }
+    else
+    {
+      digitalWrite(led, LOW);
+    }
     Serial.write("Hello from Bluetooth");
   }
   
