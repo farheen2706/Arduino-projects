@@ -4,7 +4,7 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(led,OUTPUT);
   pinMode(ir,INPUT);
-  Serial.begin(9600);
+  Serial.begin(9600);//setting up serial monitor
 }
 
 void loop() {
