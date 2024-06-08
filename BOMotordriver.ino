@@ -3,6 +3,8 @@ int motor1pin2 = 12;
 int motor1pin2 = 10;
 int motor1pin2 = 9;
 
+//configuring motor pins
+
 void setup()
 {
 pinMode(motor1pin1, OUTPUT);
