@@ -19,7 +19,7 @@ void loop()
 digitalWrite(motor1pin2, HIGH);
 digitalWrite(motor2pin1, HIGH);
 digitalWrite(motor2pin2, HIGH);
-delay(3000);
+delay(3000); //for spinning every 3 seconds
 }
 
 
