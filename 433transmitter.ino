@@ -17,5 +17,5 @@ void loop() {
   const char *msg = "Transmitting"; //MEssage for transmitting
   rf_driver.send((uint8_t *)msg, strlen(msg));//takes two parameters array of data(encoded using uint_t) and number of bytes(length of the string)
   rf_driver.waitPacketSent();//waits until the transmission is complete
-  delay(1000);
+  delay(1000);//delay for 1s
 }
