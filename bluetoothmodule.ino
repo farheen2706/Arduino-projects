@@ -1,4 +1,4 @@
-int led=8;
+int led=8; //configuring the led light
 
 void setup() {
   // put your setup code here, to run once:
