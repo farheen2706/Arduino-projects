@@ -5,7 +5,7 @@ int motor1pin2 = 9;
 
 //configuring motor pins
 
-void setup()
+void setup()//confuguring all the pins
 {
 pinMode(motor1pin1, OUTPUT);
 pinMode(motor1pin2, OUTPUT);
