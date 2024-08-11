@@ -12,5 +12,5 @@ motor2.setSpeed(255);
 void loop()
 {
   motor1.run(BACKWARD);
-motor2.run(BACKWARD);
+motor2.run(FORWARD);
 }
