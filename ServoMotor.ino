@@ -1,7 +1,7 @@
 //Global variable declaration
 #include<Servo.h> //importing package for servo motor
 
-Servo s;
+Servo s;//comfiguring servo motor
 int led = 8;
 void setup() {
   // put your setup code here, to run once:
