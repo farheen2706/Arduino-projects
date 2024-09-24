@@ -7,7 +7,7 @@ void setup() {
   // put your setup code here, to run once:
   if (!rf_driver.init())
   {
-    Serial.print("Failed");//initializing the ASK object
+    Serial.print("Failed");//initializing ASK object
   
   }
 }
