@@ -1,4 +1,4 @@
-//Global variable declaration
+//Global variable declaration.
 #include<Servo.h> //importing package for servo motor
 
 Servo s;//comfiguring servo motor
@@ -13,7 +13,7 @@ s.attach (9);
 void loop() {
   // put your main code here, to run repeatedly:
 //Servo motor rotation
-for(int i=0;i<=180;i++)
+for(int i=0;i<=180;i++)//loop for rotation
 {
   s.write(i);
   delay(10);
