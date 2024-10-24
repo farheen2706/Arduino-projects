@@ -1,7 +1,7 @@
 #include <RH_ASK.h>//radio head header
 #include <SPI.h>//serial communication
 //creating amplitude shift keyung
-RH_ASK rf_driver;//ask object to access the functions related to the readihead library
+RH_ASK rf_driver;//ask object to the functions related to the readihead library
 
 void setup() {
   // put your setup code here, to run once:
