@@ -1,10 +1,10 @@
-//Global variable declaration.
+//Global variable declaration. ""
 #include<Servo.h> //importing package for servo motor
 
 Servo s;//comfiguring servo motor
 int led = 8;
 void setup() {
-  // put your setup code here, to run once:
+  // put your setup code here, to run once
 Serial.begin(9600);
 s.attach (9);
 
