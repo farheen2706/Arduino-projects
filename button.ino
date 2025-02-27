@@ -15,7 +15,7 @@ digitalWrite(led.HIGH);
 }
 
 if(button_data == HIGH){
-Serial.println("Button is pressed"):
+Serial.println("Button is pressed")
 digitalWrite(led.LOW);
 }
 }
