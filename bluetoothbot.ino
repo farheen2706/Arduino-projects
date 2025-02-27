@@ -56,7 +56,7 @@ void forward()
   digitalWrite(motor2pin1, LOW);
 
 }
-void backward()
+void backward()//to spin wheel backwards
 {
   digitalWrite(motor1pin1, HIGH);
   digitalWrite(motor1pin2, LOW);
